@@ -13,7 +13,19 @@
       <name>Guvnor M2 Repo</name>
       <url>http://localhost:8080/business-central/maven2/</url>
     </repository>
+      <repository>
+	<id>nexus</id>
+	<name>nexus</name>
+        <url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>	
+</repository>
   </repositories>
+    <pluginRepositories>
+	<pluginRepository>
+        <id>nexus</id>
+        <name>nexus</name>
+<url>http://nexus.tooling.svc.cluster.local:8081/content/groups/forum</url>
+</pluginRepository>
+</pluginRepositories>
   <build>
     <plugins>
       <plugin>
