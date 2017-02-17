@@ -40,7 +40,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>14</executionTimeResult>
+      <executionTimeResult>61</executionTimeResult>
       <numberOfRulesFired>3</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -49,8 +49,8 @@
           <fieldName>carDisc</fieldName>
           <expected>15</expected>
           <actualResult>15</actualResult>
-          <successResult>false</successResult>
-          <explanation>[car] field [carDisc] was [15] expected [150].</explanation>
+          <successResult>true</successResult>
+          <explanation>[car] field [carDisc] was [15].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -62,9 +62,10 @@
       <fieldValues>
         <expect-field>
           <fieldName>flightDisc</fieldName>
-          <expected>70</expected>
-          <successResult>true</successResult>
-          <explanation>[flight] field [flightDisc] was [70].</explanation>
+          <expected>10</expected>
+          <actualResult>10</actualResult>
+          <successResult>false</successResult>
+          <explanation>[flight] field [flightDisc] was [10] expected [70].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -87,7 +88,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-12 15:43:15.275 UTC</lastRunResult>
+  <lastRunResult>2017-02-17 10:44:29.176 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>techoffice.discountrules</packageName>
