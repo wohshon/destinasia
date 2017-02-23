@@ -212,7 +212,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SouthAmerica Flights</valueString>
+        <valueString>APAC Flights</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -227,7 +227,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>EZE,SCL,MVD,BOG,GRU,GIG,LIM</valueString>
+        <valueString>SIN,PEK,ICN,NRT,BOM,SYD,AKL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
